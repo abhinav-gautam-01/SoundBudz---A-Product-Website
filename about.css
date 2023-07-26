@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+}
+
+#img{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo_txt{
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 500;
+    color: #E5B8F4;
+    padding: 17px;
+}
+
+#img img{
+    width: 85px;
+    cursor: pointer;
+}
+
+
+nav{
+    background: #2D033B;
+    background-size: cover;
+    background-position: center;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-list{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#nav-list li{
+    list-style: none;
+    padding: 12px 35px;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav-list li a{
+    text-decoration: none;
+    color: 
+    #E5B8F4;
+}
+
+#nav-list li a:hover{
+    transition: 0.4s ease-in;
+text-shadow: 20px 20px 30px #810CA8;
+}
+
+#button-sec{
+width: 20%;
+display: flex;
+justify-content: right;
+}
+
+#button-sec #btn{
+    margin-right:90px;
+padding: 16px 49px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 400;
+font-size: 17px;
+background-color: #810CA8;
+color: #E5B8F4;
+outline: none;
+border: none;
+box-shadow: 5px 7px 10px #888888;
+cursor: pointer;
+}
+
+#audio{
+    display: none;
+}
+
+.util1{
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+
+    -webkit-transition-property: -webkit-transform infinite;
+    -moz-transition-property: -moz-transform infinite;
+    -o-transition-property: -o-transform infinite;
+     transition-property: transform;
+
+     -webkit-transform:rotate(360deg);
+     -moz-transform:rotate(360deg); 
+     -o-transform:rotate(360deg);
+ }
+
+ /* About.html main css */
+ #about-content{
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(200, 130, 224, 0.1), rgba(165, 31, 209, 0.9)),url("./about1.jpg");
+    background-position: center;
+    background-size: cover;
+ }
+
+ #about-content-heading{
+    font-size: 41px;
+    color: #E5B8F4;
+    line-height: 65px;
+    word-spacing: 12px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Pathway Extreme', sans-serif;
+    text-shadow:10px 10px 33px #810CA8;
+ }
+
+ #about-content-main{
+    height: 60vh;
+    margin-top: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+ }
+
+ #about-left{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+ }
+
+ #about-left img{
+border-radius: 14px;
+filter: opacity(95%);
+ }
+
+ #about-left img:hover{
+    transition: 0.8s ease-in-out;
+    filter: opacity(100%);
+ }
+
+ #about-right{
+    padding: 10px 30px;
+    width: 60%;
+ }
+
+ #about-right-p{
+    color: #C147E9;
+    font-size: 21px;
+    line-height: 34px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Pathway Extreme', sans-serif;
+ }
+
+ /* width */
+ ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #be6bda;
+  }
+  
+  footer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2D033B ;
+  }
+
+  footer h2{
+    color: #E5B8F4;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Pathway Extreme', sans-serif;
+font-family: 'Tilt Prism', cursive;
+font-size: 38px;
+font-weight: 300;
+word-spacing: 22px;
+letter-spacing: 2px;
+  }
